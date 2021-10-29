@@ -53,5 +53,7 @@
         git reset --soft head~1：退到暂存区
         git reset --hard head~1：直接删除修改
         git commit --amend：修理提交，比如修改注释，将本次提交添加到上一次提交
-
+        git rebase -i c2e9318 2fd3cd9 ：(]区间，整理本地仓库，合并多条提交记录
+        git branch develop：创建分支
+        git checkout develop：切换分支
 */
