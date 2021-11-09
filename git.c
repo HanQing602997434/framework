@@ -35,10 +35,10 @@
         git status：查看当前目录文件状态
         git log：查询日志
                 例子：commit 69d91340fcd4ba23e5e65e48eae6feb829309e17 (HEAD -> master)
-                      Author: hanqing <602997434@qq.com> 提交用户信息 user <email>
-                      Date:   Fri Oct 29 14:29:07 2021 +0800 提交时间
-                 69d91340fcd4ba23e5e65e48eae6feb829309e17是通过提交文件 + sha1哈希算法生成的哈希值，代表某次提交
-                 HEAD当前最新提交的指针，mater代表分支
+                    Author: hanqing <602997434@qq.com> 提交用户信息 user <email>
+                    Date:   Fri Oct 29 14:29:07 2021 +0800 提交时间
+                    69d91340fcd4ba23e5e65e48eae6feb829309e17是通过提交文件 + sha1哈希算法生成的哈希值，代表某次提交
+                    HEAD当前最新提交的指针，mater代表分支
         git branch：查询分支
         git config -l：查询配置信息
         git config user.name aa：修改用户名
@@ -48,10 +48,10 @@
         origin：远端仓库地址的默认别名就是origin
         git restore -S hello.c：将暂存区的提交退回工作区
         git reflog：查看简短的提交记录，并提示回退版本数
-        git reset head~1：回退一个版本，相当于下面的mixed
-        git reset --mixed head~1：退到工作区
-        git reset --soft head~1：退到暂存区
-        git reset --hard head~1：直接删除修改
+        git reset HEAD~1：回退一个版本，相当于下面的mixed
+        git reset --mixed HEAD~1：退到工作区
+        git reset --soft HEAD~1：退到暂存区
+        git reset --hard HEAD~1：直接删除修改
         git commit --amend：修理提交，比如修改注释，将本次提交添加到上一次提交
         git rebase -i c2e9318 2fd3cd9 ：(]区间，整理本地仓库，合并多条提交记录
         git branch develop：创建分支
