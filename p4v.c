@@ -12,4 +12,8 @@
     	删除用户: p4 user -d name
 
     通过Perforce P4V菜单的Tools -> Administration访问服务器
+
+	在创建workspace并且映射到对应的depot之后，出现file(s) not in client view这种问题怎么解决？
+		创建玩对应的工作区之后，如果出现上面的问题，就需要在工作区下添加仓库名的文件夹，才能获得
+		对应仓库的权限，否则prerforce就认为工作区没有连接到仓库。
 */
