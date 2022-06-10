@@ -10,4 +10,6 @@
     	查看仓库信息: p4 depots
     	删除仓库: p4 depot -d name
     	删除用户: p4 user -d name
+
+    通过Perforce P4V菜单的Tools -> Administration访问服务器
 */
