@@ -16,4 +16,8 @@
 	在创建workspace并且映射到对应的depot之后，出现file(s) not in client view这种问题怎么解决？
 		创建玩对应的工作区之后，如果出现上面的问题，就需要在工作区下添加仓库名的文件夹，才能获得
 		对应仓库的权限，否则prerforce就认为工作区没有连接到仓库。
+
+	revert其他客户端迁出文件方法
+		p4 -c workspeac -H HOST -u Owner revert Path\Filename
+		p4 -c workspeac -H WIM-20211215RMQ -u tangrongqi revert D:\PerforceProject\SecondGeneration\Content\BluePrint\Player\BP_PlayerMain.uasset
 */
